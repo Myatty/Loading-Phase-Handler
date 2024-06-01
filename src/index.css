@@ -1,0 +1,25 @@
+.grid-ctr {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+.product-card {
+  width: 300px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.flex-ctr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.title{
+    text-align: center;
+    margin: 30px 0 ;
+}
